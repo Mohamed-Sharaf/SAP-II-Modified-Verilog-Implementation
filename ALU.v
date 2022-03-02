@@ -2,7 +2,7 @@
 // Module: ALU.v
 // Description: Verilog code for ALU which is the fundamental building block of the  
 //              processor, which is responsible for carrying out the arithmetic,
-//              logic functions, Shift functions and Comparison functions.    
+//              logic functions and Shift functions.    
 // Owner: Mohamed Sharaf
 // Date:  Aug 2019
 //---------------------------------------------------------------------------------
