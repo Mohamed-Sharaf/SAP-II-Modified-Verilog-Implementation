@@ -1,3 +1,11 @@
+//--------------------------------------------------------------------------------- 
+// Module: ALU.v
+// Description: Verilog code for ALU which is the fundamental building block of the  
+//              processor, which is responsible for carrying out the arithmetic,
+//              logic functions, Shift functions and Comparison functions.    
+// Owner: Mohamed Sharaf
+// Date:  Aug 2019
+//---------------------------------------------------------------------------------
 module ALU(out_bus,carry,/*out_flag,*/A,T,S1,S2,S3,S4,E);
 input  [7:0]A,T;
 input  S1,S2,S3,S4,E;
@@ -29,6 +37,12 @@ endcase
 
 endmodule
 
+//--------------------------------------------------------------------------------- 
+// Module: t_ALU.v
+// Description: Verilog code for testing ALU design. (Simple testbench) 
+// Owner: Mohamed Sharaf
+// Date:  Aug 2019
+//---------------------------------------------------------------------------------
 module t_ALU;
 reg   [7:0]A,T;
 reg   S1,S2,S3,S4,E;
