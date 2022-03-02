@@ -1,3 +1,9 @@
+//--------------------------------------------------------------------------------- 
+// Module: SAP_2.v
+// Description: Verilog code for SAP-2 Architecture (Top module)  
+// Owner: Mohamed Sharaf
+// Date:  Aug 2019
+//---------------------------------------------------------------------------------
 module SAP_2(OUT_put,OOP,Con,IN_put,Clock,Clr);
 output [7:0]OUT_put,OOP;
 output [28:0] Con;
